@@ -1,0 +1,56 @@
+Last login: Mon Feb  4 06:50:45 on ttys000
+Jeffreys-MacBook-Pro:~ jeffrey$ cd XcodeProjects/
+Jeffreys-MacBook-Pro:XcodeProjects jeffrey$ cd Assignment\ 2
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 00001010
+Enter 2nd 8-bit sequence: 00000111
+  00001010  (10)
+  00000111  (7)
+------------------
+00010001  (17)
+
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 11110110
+Enter 2nd 8-bit sequence: 11111001
+  11110110  (-10)
+  11111001  (-7)
+------------------
+11101111  (-17)
+
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 10000000
+Enter 2nd 8-bit sequence: 00000001
+  10000000  (-128)
+  00000001  (1)
+------------------
+10000001  (-127)
+
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 01110011
+Enter 2nd 8-bit sequence: 00111001
+  01110011  (115)
+  00111001  (57)
+------------------
+00101100  (172)
+
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 10000000
+Enter 2nd 8-bit sequence: 10000001
+  10000000  (-128)
+  10000001  (-127)
+------------------
+10000001  (-255)
+
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 000111
+Enter 2nd 8-bit sequence: 1001
+Error: You must enter two valid 8-bit string sequences
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 11hh1139
+Enter 2nd 8-bit sequence: kd232811
+Error: Bit sequence 1 or 2 has non-binary characters
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ ./bitMath 
+Enter 1st 8-bit sequence: 10k03r43
+Enter 2nd 8-bit sequence: 10011001
+Error: Bit sequence 1 or 2 has non-binary characters
+Jeffreys-MacBook-Pro:Assignment 2 jeffrey$ 
